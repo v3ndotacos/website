@@ -1,0 +1,50 @@
+body {
+    font-family: Roboto, 'Courier New', Courier, monospace;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.top{
+    background-color: #1f2937;
+    font-size: 18px;
+}
+.top .header{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.placeholder{
+    color: #e5e7eb;
+}
+
+.hero-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+.hero-text .title{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+
+button{
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #f9faf8;
+    border: none;
+    border-radius: 5px;
+}
+
+.header ul{
+    display: flex;
+}
