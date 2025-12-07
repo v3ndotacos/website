@@ -1,50 +1,84 @@
 body {
-    font-family: Roboto, 'Courier New', Courier, monospace;
+  font-family: Roboto, "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
 }
 
-ul{
-    list-style-type: none;
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
-a{
-    text-decoration: none;
-    color: #e5e7eb;
-    font-size: 18px;
+li a {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.top {
+  background-color: #1f2937;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header ul {
+  gap: 30px;
+  list-style-type: none;
+  display: flex;
 }
 
-.top{
-    background-color: #1f2937;
-    font-size: 18px;
-}
-.top .header{
-    font-size: 24px;
-    color: #f9faf8;
-}
-.placeholder{
-    color: #e5e7eb;
+.container {
+  display: flex;
 }
 
-.hero-text{
-    font-size: 18px;
-    color: #e5e7eb;
+.container,
+.header {
+  margin: 20px;
 }
 
-
-.hero-text .title{
-    font-size: 48px;
-    color: #f9faf8;
-    font-weight: 900;
+.header .logo {
+  color: #f9faf8;
+  font-weight: bold;
 }
 
-
-button{
-    background-color: #3882f6;
-    font-size: 18px;
-    color: #f9faf8;
-    border: none;
-    border-radius: 5px;
+.hero-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
 }
 
-.header ul{
-    display: flex;
+.hero-text .title {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.button-text {
+  display: flex;
+}
+button {
+  background-color: #3882f6;
+  font-size: 18px;
+  color: #f9faf8;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+
+  flex: 0 1 90px;
+}
+
+.placeholder {
+  color: #e5e7eb;
+  padding: 100px;
+  background-color: #8999af;
+  align-items: center;
+  display: flex;
+  margin: 20px;
 }
